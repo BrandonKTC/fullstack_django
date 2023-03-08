@@ -1,6 +1,12 @@
 from django.shortcuts import render
 from django.urls import reverse_lazy
-from django.views.generic import TemplateView, FormView, CreateView, ListView, UpdateView, DeleteView, DetailView
+from django.views.generic import (TemplateView,
+                                  FormView,
+                                  CreateView,
+                                  ListView,
+                                  UpdateView,
+                                  DeleteView,
+                                  DetailView)
 from classroom.forms import ContactForm
 from .models import Teacher
 
